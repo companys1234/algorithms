@@ -1,0 +1,6 @@
+n = int(input())
+a = str(input())
+a1 = a.count('0')
+a2 = a.count('1')
+pairs = min(a1,a2)
+print(n-(pairs*2))
